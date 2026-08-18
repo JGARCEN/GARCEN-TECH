@@ -1,0 +1,24 @@
+{
+  "name": "vibecoding",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plantilla del curso Vibe Code con Change and Code — Next.js + Supabase + OpenAI, con docs semana a semana",
+  "workspaces": [
+    "web",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "yarn workspace web dev",
+    "build": "yarn workspace web build",
+    "start": "yarn workspace web start",
+    "lint": "yarn workspace web lint",
+    "docs:dev": "yarn workspace docs dev",
+    "docs:build": "yarn workspace docs build",
+    "docs:lint": "yarn workspace docs lint"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24",
+    "yarn": "^1.22.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}
